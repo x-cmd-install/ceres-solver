@@ -5,13 +5,13 @@ about:
   head: fe351d5
   archived: false
   latestVersion: ""
-  collectedAt: 2026-09-07T05:40:55Z
+  collectedAt: 2026-09-07T18:52:05Z
 timeline:
   created: 2014-01-06
   lastCommit: 2026-08-19
   lastRelease: 
 popularity:
-  star: 4554
+  star: 4555
   watcher: 101
   fork: 1139
   release: 0
@@ -84,7 +84,7 @@ total:
   commit: 2283
 ---
 path: /home/runner/.x-repo/github.com/ceres-solver/ceres-solver
-collectedAt: 2026-09-07T05:40:59Z
+collectedAt: 2026-09-07T18:52:10Z
 loc:
   Cpp:
     code: 53990
@@ -260,7 +260,7 @@ checks:
       - 'Warn: branch protection not enabled for branch ''master'''
 ---
 eget:
-  collectedAt: 2026-09-07T05:41:12+00:00
+  collectedAt: 2026-09-07T18:52:11+00:00
   platform:
     darwin/arm64:
       name:  null
