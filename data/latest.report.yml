@@ -7,7 +7,7 @@ about:
   latestVersion: ""
   latestRelease: ""
   latestPrerelease: ""
-  collectedAt: 2026-09-11T05:56:15Z
+  collectedAt: 2026-09-11T18:55:18Z
 timeline:
   created: 2014-01-06
   lastCommit: 2026-08-19
@@ -15,7 +15,7 @@ timeline:
   lastRelease: 
   lastPrerelease: 
 popularity:
-  star: 4560
+  star: 4561
   watcher: 101
   fork: 1140
   release: 0
@@ -88,7 +88,7 @@ total:
   commit: 2283
 ---
 path: /home/runner/.x-repo/github.com/ceres-solver/ceres-solver
-collectedAt: 2026-09-11T05:56:18Z
+collectedAt: 2026-09-11T18:55:21Z
 loc:
   Cpp:
     code: 53990
