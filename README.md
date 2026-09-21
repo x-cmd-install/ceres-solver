@@ -42,7 +42,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 4,567 · **Forks**: 1,141 · **Open issues**: 1,101 · **Contributors**: 106
+- **Stars**: 4,568 · **Forks**: 1,141 · **Open issues**: 1,101 · **Contributors**: 106
 
 ## Totals (cumulative)
 
@@ -52,12 +52,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-21 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-07-22 | 0 | 0 | 0 | 3 | 0 | 5 |
-| 90d | 2026-06-22 | 0 | 0 | 0 | 5 | 1 | 6 |
-| last180d | 2026-03-24 | 0 | 0 | 0 | 9 | 2 | 11 |
-| 360d | 2025-09-25 | 0 | 0 | 0 | 21 | 2 | 40 |
-| last720d | 2024-09-30 | 0 | 0 | 0 | 74 | 7 | 86 |
+| 30d | 2026-08-22 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-23 | 0 | 0 | 0 | 2 | 0 | 2 |
+| 90d | 2026-06-23 | 0 | 0 | 0 | 4 | 1 | 5 |
+| last180d | 2026-03-25 | 0 | 0 | 0 | 9 | 2 | 10 |
+| 360d | 2025-09-26 | 0 | 0 | 0 | 21 | 2 | 36 |
+| last720d | 2024-10-01 | 0 | 0 | 0 | 74 | 7 | 86 |
 
 ## Improve this data
 
@@ -68,4 +68,4 @@ Install metadata for ceres-solver lives in the [x-cmd/install](https://github.co
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260920.yml` · 2026-09-20T05:57:09Z._
+_Snapshot: `data/card/260921.yml` · 2026-09-21T06:05:19Z._
