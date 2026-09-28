@@ -14,7 +14,7 @@ x install ceres-solver
 
 ## Code insight
 
-Total: **87,393** lines of code across **647** files in the top 5 languages.
+Total: **87,394** lines of code across **647** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
@@ -22,7 +22,7 @@ Total: **87,393** lines of code across **647** files in the top 5 languages.
 | CHeader | 15,640 | 16,876 | 4,288 | 204 |
 | ReStructuredText | 9,867 | 0 | 3,182 | 25 |
 | Json | 4,432 | 0 | 0 | 2 |
-| CMake | 2,267 | 1,237 | 390 | 24 |
+| CMake | 2,268 | 1,237 | 390 | 24 |
 
 ## OpenSSF Scorecard
 
@@ -42,22 +42,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 4,570 · **Forks**: 1,141 · **Open issues**: 1,101 · **Contributors**: 106
+- **Stars**: 4,571 · **Forks**: 1,141 · **Open issues**: 1,101 · **Contributors**: 106
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 0 · **Closed issues**: 1039 · **Open issues**: 62 · **Commits**: 2283
+- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 0 · **Closed issues**: 1039 · **Open issues**: 62 · **Commits**: 2285
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-28 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-07-29 | 0 | 0 | 0 | 0 | 0 | 1 |
-| 90d | 2026-06-29 | 0 | 0 | 0 | 4 | 0 | 5 |
-| last180d | 2026-03-31 | 0 | 0 | 0 | 8 | 2 | 9 |
-| 360d | 2025-10-02 | 0 | 0 | 0 | 21 | 2 | 36 |
-| last720d | 2024-10-07 | 0 | 0 | 0 | 74 | 7 | 86 |
+| 30d | 2026-08-29 | 0 | 0 | 0 | 0 | 0 | 2 |
+| last60d | 2026-07-30 | 0 | 0 | 0 | 0 | 0 | 3 |
+| 90d | 2026-06-30 | 0 | 0 | 0 | 4 | 0 | 7 |
+| last180d | 2026-04-01 | 0 | 0 | 0 | 8 | 2 | 11 |
+| 360d | 2025-10-03 | 0 | 0 | 0 | 21 | 2 | 38 |
+| last720d | 2024-10-08 | 0 | 0 | 0 | 73 | 7 | 88 |
 
 ## Improve this data
 
@@ -68,4 +68,4 @@ Install metadata for ceres-solver lives in the [x-cmd/install](https://github.co
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260927.yml` · 2026-09-27T06:11:15Z._
+_Snapshot: `data/card/260928.yml` · 2026-09-28T06:19:39Z._
