@@ -26,13 +26,13 @@ Total: **88,036** lines of code across **650** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **3.7 / 10**
+Overall score: **3.8 / 10**
 
 Lowest-scoring checks:
 
 - **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
-- **SAST** (0/10) — no SAST tool detected
+- **Packaging** (-1/10) — packaging workflow not detected
 
 ## Source
 
@@ -42,22 +42,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 4,578 · **Forks**: 1,141 · **Open issues**: 1,101 · **Contributors**: 107
+- **Stars**: 4,580 · **Forks**: 1,141 · **Open issues**: 1,101 · **Contributors**: 107
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 0 · **Closed issues**: 1040 · **Open issues**: 61 · **Commits**: 2290
+- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 0 · **Closed issues**: 1040 · **Open issues**: 61 · **Commits**: 2291
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-06 | 0 | 0 | 0 | 0 | 0 | 6 |
-| last60d | 2026-08-07 | 0 | 0 | 0 | 0 | 0 | 7 |
-| 90d | 2026-07-08 | 0 | 0 | 0 | 3 | 0 | 11 |
-| last180d | 2026-04-09 | 0 | 0 | 0 | 8 | 2 | 15 |
-| 360d | 2025-10-11 | 0 | 0 | 0 | 21 | 2 | 42 |
-| last720d | 2024-10-16 | 0 | 0 | 0 | 71 | 6 | 93 |
+| 30d | 2026-09-07 | 0 | 0 | 0 | 0 | 0 | 7 |
+| last60d | 2026-08-08 | 0 | 0 | 0 | 0 | 0 | 8 |
+| 90d | 2026-07-09 | 0 | 0 | 0 | 3 | 0 | 12 |
+| last180d | 2026-04-10 | 0 | 0 | 0 | 8 | 2 | 16 |
+| 360d | 2025-10-12 | 0 | 0 | 0 | 21 | 2 | 43 |
+| last720d | 2024-10-17 | 0 | 0 | 0 | 71 | 6 | 94 |
 
 ## Improve this data
 
@@ -68,4 +68,4 @@ Install metadata for ceres-solver lives in the [x-cmd/install](https://github.co
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261006.yml` · 2026-10-06T07:23:20Z._
+_Snapshot: `data/card/261007.yml` · 2026-10-07T06:53:50Z._
