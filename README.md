@@ -14,15 +14,15 @@ x install ceres-solver
 
 ## Code insight
 
-Total: **88,036** lines of code across **650** files in the top 5 languages.
+Total: **88,316** lines of code across **650** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Cpp | 54,444 | 19,214 | 10,230 | 393 |
-| CHeader | 15,818 | 17,068 | 4,343 | 206 |
-| ReStructuredText | 9,872 | 0 | 3,184 | 25 |
+| Cpp | 54,448 | 19,216 | 10,230 | 393 |
+| CHeader | 15,817 | 17,100 | 4,345 | 206 |
+| ReStructuredText | 10,034 | 0 | 3,199 | 25 |
 | Json | 4,432 | 0 | 0 | 2 |
-| CMake | 2,273 | 1,243 | 390 | 24 |
+| CMake | 2,340 | 1,262 | 401 | 24 |
 
 ## OpenSSF Scorecard
 
@@ -42,22 +42,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 4,580 · **Forks**: 1,141 · **Open issues**: 1,101 · **Contributors**: 107
+- **Stars**: 4,579 · **Forks**: 1,140 · **Open issues**: 1,101 · **Contributors**: 107
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 0 · **Closed issues**: 1040 · **Open issues**: 61 · **Commits**: 2291
+- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 0 · **Closed issues**: 1040 · **Open issues**: 61 · **Commits**: 2316
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-07 | 0 | 0 | 0 | 0 | 0 | 7 |
-| last60d | 2026-08-08 | 0 | 0 | 0 | 0 | 0 | 8 |
-| 90d | 2026-07-09 | 0 | 0 | 0 | 3 | 0 | 12 |
-| last180d | 2026-04-10 | 0 | 0 | 0 | 8 | 2 | 16 |
-| 360d | 2025-10-12 | 0 | 0 | 0 | 21 | 2 | 43 |
-| last720d | 2024-10-17 | 0 | 0 | 0 | 71 | 6 | 94 |
+| 30d | 2026-09-08 | 0 | 0 | 0 | 0 | 0 | 32 |
+| last60d | 2026-08-09 | 0 | 0 | 0 | 0 | 0 | 33 |
+| 90d | 2026-07-10 | 0 | 0 | 0 | 3 | 0 | 37 |
+| last180d | 2026-04-11 | 0 | 0 | 0 | 7 | 2 | 41 |
+| 360d | 2025-10-13 | 0 | 0 | 0 | 20 | 2 | 68 |
+| last720d | 2024-10-18 | 0 | 0 | 0 | 71 | 6 | 119 |
 
 ## Improve this data
 
@@ -68,4 +68,4 @@ Install metadata for ceres-solver lives in the [x-cmd/install](https://github.co
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261007.yml` · 2026-10-07T06:53:50Z._
+_Snapshot: `data/card/261008.yml` · 2026-10-08T06:59:22Z._
