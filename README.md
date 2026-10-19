@@ -14,11 +14,11 @@ x install ceres-solver
 
 ## Code insight
 
-Total: **89,006** lines of code across **650** files in the top 5 languages.
+Total: **89,018** lines of code across **650** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Cpp | 55,032 | 19,299 | 10,319 | 394 |
+| Cpp | 55,044 | 19,301 | 10,320 | 394 |
 | CHeader | 15,919 | 17,140 | 4,356 | 205 |
 | ReStructuredText | 10,034 | 0 | 3,199 | 25 |
 | Json | 4,432 | 0 | 0 | 2 |
@@ -42,22 +42,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 4,580 · **Forks**: 1,142 · **Open issues**: 1,103 · **Contributors**: 108
+- **Stars**: 4,581 · **Forks**: 1,142 · **Open issues**: 1,103 · **Contributors**: 108
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 0 · **Closed issues**: 1041 · **Open issues**: 62 · **Commits**: 2333
+- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 0 · **Closed issues**: 1041 · **Open issues**: 62 · **Commits**: 2335
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-18 | 0 | 0 | 0 | 1 | 1 | 47 |
-| last60d | 2026-08-19 | 0 | 0 | 0 | 1 | 1 | 48 |
-| 90d | 2026-07-20 | 0 | 0 | 0 | 4 | 1 | 52 |
-| last180d | 2026-04-21 | 0 | 0 | 0 | 8 | 3 | 56 |
-| 360d | 2025-10-23 | 0 | 0 | 0 | 21 | 3 | 84 |
-| last720d | 2024-10-28 | 0 | 0 | 0 | 71 | 7 | 136 |
+| 30d | 2026-09-19 | 0 | 0 | 0 | 1 | 1 | 49 |
+| last60d | 2026-08-20 | 0 | 0 | 0 | 1 | 1 | 49 |
+| 90d | 2026-07-21 | 0 | 0 | 0 | 4 | 1 | 53 |
+| last180d | 2026-04-22 | 0 | 0 | 0 | 8 | 3 | 58 |
+| 360d | 2025-10-24 | 0 | 0 | 0 | 19 | 3 | 85 |
+| last720d | 2024-10-29 | 0 | 0 | 0 | 71 | 7 | 138 |
 
 ## Improve this data
 
@@ -68,4 +68,4 @@ Install metadata for ceres-solver lives in the [x-cmd/install](https://github.co
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261018.yml` · 2026-10-18T05:19:38Z._
+_Snapshot: `data/card/261019.yml` · 2026-10-19T05:27:33Z._
