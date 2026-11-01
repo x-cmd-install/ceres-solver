@@ -14,15 +14,15 @@ x install ceres-solver
 
 ## Code insight
 
-Total: **89,080** lines of code across **650** files in the top 5 languages.
+Total: **90,525** lines of code across **643** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Cpp | 55,087 | 19,301 | 10,325 | 394 |
-| CHeader | 15,919 | 17,140 | 4,356 | 205 |
-| ReStructuredText | 10,053 | 0 | 3,202 | 25 |
+| Cpp | 55,847 | 19,355 | 10,403 | 395 |
+| CHeader | 16,580 | 17,001 | 4,453 | 198 |
+| ReStructuredText | 10,069 | 0 | 3,205 | 25 |
 | Json | 4,432 | 0 | 0 | 2 |
-| CMake | 2,344 | 1,264 | 401 | 24 |
+| CMake | 2,351 | 1,263 | 402 | 23 |
 
 ## OpenSSF Scorecard
 
@@ -46,18 +46,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 0 · **Closed issues**: 1056 · **Open issues**: 48 · **Commits**: 2340
+- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 0 · **Closed issues**: 1060 · **Open issues**: 44 · **Commits**: 2366
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-01 | 0 | 0 | 0 | 2 | 1 | 49 |
-| last60d | 2026-09-01 | 0 | 0 | 0 | 2 | 1 | 54 |
-| 90d | 2026-08-02 | 0 | 0 | 0 | 2 | 1 | 55 |
-| last180d | 2026-05-04 | 0 | 0 | 0 | 9 | 2 | 61 |
-| 360d | 2025-11-05 | 0 | 0 | 0 | 21 | 2 | 89 |
-| last720d | 2024-11-10 | 0 | 0 | 0 | 70 | 6 | 143 |
+| 30d | 2026-10-02 | 0 | 0 | 0 | 3 | 0 | 34 |
+| last60d | 2026-09-02 | 0 | 0 | 0 | 3 | 0 | 80 |
+| 90d | 2026-08-03 | 0 | 0 | 0 | 3 | 0 | 81 |
+| last180d | 2026-05-05 | 0 | 0 | 0 | 10 | 1 | 87 |
+| 360d | 2025-11-06 | 0 | 0 | 0 | 22 | 1 | 114 |
+| last720d | 2024-11-11 | 0 | 0 | 0 | 71 | 5 | 169 |
 
 ## Distribution status
 
@@ -87,4 +87,4 @@ Install metadata for ceres-solver lives in the [x-cmd/install](https://github.co
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261031.yml` · 2026-10-31T06:30:05Z._
+_Snapshot: `data/card/261101.yml` · 2026-11-01T06:56:15Z._
