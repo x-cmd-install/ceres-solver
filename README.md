@@ -14,15 +14,15 @@ x install ceres-solver
 
 ## Code insight
 
-Total: **90,525** lines of code across **643** files in the top 5 languages.
+Total: **90,556** lines of code across **643** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Cpp | 55,847 | 19,355 | 10,403 | 395 |
-| CHeader | 16,580 | 17,001 | 4,453 | 198 |
-| ReStructuredText | 10,069 | 0 | 3,205 | 25 |
+| Cpp | 55,908 | 19,352 | 10,406 | 395 |
+| CHeader | 16,511 | 16,980 | 4,444 | 198 |
+| ReStructuredText | 10,133 | 0 | 3,237 | 25 |
 | Json | 4,432 | 0 | 0 | 2 |
-| CMake | 2,351 | 1,263 | 402 | 23 |
+| CMake | 2,348 | 1,261 | 398 | 23 |
 
 ## OpenSSF Scorecard
 
@@ -42,26 +42,26 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 4,597 · **Forks**: 1,143 · **Open issues**: 1,104 · **Contributors**: 108
+- **Stars**: 4,598 · **Forks**: 1,143 · **Open issues**: 1,104 · **Contributors**: 108
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 0 · **Closed issues**: 1060 · **Open issues**: 44 · **Commits**: 2366
+- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 0 · **Closed issues**: 1063 · **Open issues**: 41 · **Commits**: 2387
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-02 | 0 | 0 | 0 | 3 | 0 | 34 |
-| last60d | 2026-09-02 | 0 | 0 | 0 | 3 | 0 | 80 |
-| 90d | 2026-08-03 | 0 | 0 | 0 | 3 | 0 | 81 |
-| last180d | 2026-05-05 | 0 | 0 | 0 | 10 | 1 | 87 |
-| 360d | 2025-11-06 | 0 | 0 | 0 | 22 | 1 | 114 |
-| last720d | 2024-11-11 | 0 | 0 | 0 | 71 | 5 | 169 |
+| 30d | 2026-10-03 | 0 | 0 | 0 | 3 | 0 | 55 |
+| last60d | 2026-09-03 | 0 | 0 | 0 | 3 | 0 | 101 |
+| 90d | 2026-08-04 | 0 | 0 | 0 | 3 | 0 | 102 |
+| last180d | 2026-05-06 | 0 | 0 | 0 | 11 | 0 | 108 |
+| 360d | 2025-11-07 | 0 | 0 | 0 | 23 | 0 | 135 |
+| last720d | 2024-11-12 | 0 | 0 | 0 | 73 | 3 | 190 |
 
 ## Distribution status
 
-Reported by **108** distros on [repology.org](https://repology.org/project/ceres-solver). **72** are ✅ on the latest upstream release, **30** are ⚠️ on an older version.
+Reported by **109** distros on [repology.org](https://repology.org/project/ceres-solver). **71** are ✅ on the latest upstream release, **32** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -87,4 +87,4 @@ Install metadata for ceres-solver lives in the [x-cmd/install](https://github.co
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261101.yml` · 2026-11-01T06:56:15Z._
+_Snapshot: `data/card/261102.yml` · 2026-11-02T07:26:32Z._
