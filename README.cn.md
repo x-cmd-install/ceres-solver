@@ -14,13 +14,13 @@ x install ceres-solver
 
 ## 代码洞察
 
-合计: **90,556** 行代码（覆盖前 5 种语言、共 **643** 个文件）。
+合计: **90,585** 行代码（覆盖前 5 种语言、共 **643** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
 | Cpp | 55,908 | 19,352 | 10,406 | 395 |
 | CHeader | 16,511 | 16,980 | 4,444 | 198 |
-| ReStructuredText | 10,133 | 0 | 3,237 | 25 |
+| ReStructuredText | 10,134 | 0 | 3,237 | 25 |
 | Json | 4,432 | 0 | 0 | 2 |
 | CMake | 2,348 | 1,261 | 398 | 23 |
 
@@ -30,9 +30,9 @@ x install ceres-solver
 
 评分最低的几项:
 
-- **Packaging** (-1/10) — packaging workflow not detected
 - **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
-- **SAST** (0/10) — no SAST tool detected
+- **Packaging** (-1/10) — packaging workflow not detected
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## 源代码
 
@@ -42,22 +42,22 @@ x install ceres-solver
 
 ## 流行度
 
-- **Star**: 4,603 · **Fork**: 1,143 · **开放 issue**: 1,104 · **贡献者**: 108
+- **Star**: 4,604 · **Fork**: 1,143 · **开放 issue**: 1,105 · **贡献者**: 108
 
 ## 累计统计
 
-- **发布数**: 0 · **已合并 PR**: 0 · **开放 PR**: 0 · **已关闭 issue**: 1063 · **开放 issue**: 41 · **提交数**: 2387
+- **发布数**: 0 · **已合并 PR**: 0 · **开放 PR**: 0 · **已关闭 issue**: 1063 · **开放 issue**: 42 · **提交数**: 2390
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-05 | 0 | 0 | 0 | 3 | 0 | 55 |
-| last60d | 2026-09-05 | 0 | 0 | 0 | 3 | 0 | 101 |
-| 90d | 2026-08-06 | 0 | 0 | 0 | 3 | 0 | 102 |
-| last180d | 2026-05-08 | 0 | 0 | 0 | 11 | 0 | 108 |
-| 360d | 2025-11-09 | 0 | 0 | 0 | 23 | 0 | 135 |
-| last720d | 2024-11-14 | 0 | 0 | 0 | 71 | 3 | 190 |
+| 30d | 2026-10-06 | 0 | 0 | 0 | 3 | 1 | 58 |
+| last60d | 2026-09-06 | 0 | 0 | 0 | 3 | 1 | 104 |
+| 90d | 2026-08-07 | 0 | 0 | 0 | 3 | 1 | 105 |
+| last180d | 2026-05-09 | 0 | 0 | 0 | 11 | 1 | 111 |
+| 360d | 2025-11-10 | 0 | 0 | 0 | 23 | 1 | 138 |
+| last720d | 2024-11-15 | 0 | 0 | 0 | 71 | 4 | 193 |
 
 ## 发行版状态
 
@@ -87,4 +87,4 @@ ceres-solver 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/inst
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261104.yml` · 2026-11-04T07:22:31Z._
+_数据快照: `data/card/261105.yml` · 2026-11-05T07:39:05Z._
