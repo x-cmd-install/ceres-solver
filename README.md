@@ -52,16 +52,16 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-07 | 0 | 0 | 0 | 3 | 1 | 58 |
-| last60d | 2026-09-07 | 0 | 0 | 0 | 3 | 1 | 104 |
-| 90d | 2026-08-08 | 0 | 0 | 0 | 3 | 1 | 105 |
-| last180d | 2026-05-10 | 0 | 0 | 0 | 11 | 1 | 111 |
-| 360d | 2025-11-11 | 0 | 0 | 0 | 23 | 1 | 138 |
-| last720d | 2024-11-16 | 0 | 0 | 0 | 71 | 4 | 193 |
+| 30d | 2026-10-08 | 0 | 0 | 0 | 3 | 1 | 58 |
+| last60d | 2026-09-08 | 0 | 0 | 0 | 3 | 1 | 104 |
+| 90d | 2026-08-09 | 0 | 0 | 0 | 3 | 1 | 105 |
+| last180d | 2026-05-11 | 0 | 0 | 0 | 11 | 1 | 111 |
+| 360d | 2025-11-12 | 0 | 0 | 0 | 23 | 1 | 138 |
+| last720d | 2024-11-17 | 0 | 0 | 0 | 71 | 4 | 193 |
 
 ## Distribution status
 
-Reported by **109** distros on [repology.org](https://repology.org/project/ceres-solver). **71** are ✅ on the latest upstream release, **32** are ⚠️ on an older version.
+Reported by **109** distros on [repology.org](https://repology.org/project/ceres-solver). **73** are ✅ on the latest upstream release, **30** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -87,4 +87,4 @@ Install metadata for ceres-solver lives in the [x-cmd/install](https://github.co
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261106.yml` · 2026-11-06T07:36:33Z._
+_Snapshot: `data/card/261107.yml` · 2026-11-07T06:54:23Z._
