@@ -42,7 +42,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 4,605 · **Forks**: 1,143 · **Open issues**: 1,105 · **Contributors**: 108
+- **Stars**: 4,607 · **Forks**: 1,143 · **Open issues**: 1,105 · **Contributors**: 108
 
 ## Totals (cumulative)
 
@@ -52,16 +52,16 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-10 | 0 | 0 | 0 | 3 | 1 | 49 |
-| last60d | 2026-09-10 | 0 | 0 | 0 | 3 | 1 | 104 |
-| 90d | 2026-08-11 | 0 | 0 | 0 | 3 | 1 | 105 |
-| last180d | 2026-05-13 | 0 | 0 | 0 | 11 | 1 | 111 |
-| 360d | 2025-11-14 | 0 | 0 | 0 | 23 | 1 | 138 |
-| last720d | 2024-11-19 | 0 | 0 | 0 | 70 | 4 | 193 |
+| 30d | 2026-10-11 | 0 | 0 | 0 | 3 | 1 | 49 |
+| last60d | 2026-09-11 | 0 | 0 | 0 | 3 | 1 | 104 |
+| 90d | 2026-08-12 | 0 | 0 | 0 | 3 | 1 | 105 |
+| last180d | 2026-05-14 | 0 | 0 | 0 | 11 | 1 | 111 |
+| 360d | 2025-11-15 | 0 | 0 | 0 | 23 | 1 | 138 |
+| last720d | 2024-11-20 | 0 | 0 | 0 | 70 | 4 | 193 |
 
 ## Distribution status
 
-Reported by **109** distros on [repology.org](https://repology.org/project/ceres-solver). **73** are ✅ on the latest upstream release, **30** are ⚠️ on an older version.
+Reported by **110** distros on [repology.org](https://repology.org/project/ceres-solver). **74** are ✅ on the latest upstream release, **30** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -87,4 +87,4 @@ Install metadata for ceres-solver lives in the [x-cmd/install](https://github.co
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261109.yml` · 2026-11-09T07:31:58Z._
+_Snapshot: `data/card/261110.yml` · 2026-11-10T08:28:32Z._
