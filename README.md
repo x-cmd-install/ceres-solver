@@ -42,22 +42,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 4,609 · **Forks**: 1,143 · **Open issues**: 1,105 · **Contributors**: 108
+- **Stars**: 4,609 · **Forks**: 1,144 · **Open issues**: 1,106 · **Contributors**: 108
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 0 · **Closed issues**: 1063 · **Open issues**: 42 · **Commits**: 2396
+- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 0 · **Closed issues**: 1064 · **Open issues**: 42 · **Commits**: 2396
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-15 | 0 | 0 | 0 | 1 | 1 | 55 |
-| last60d | 2026-09-15 | 0 | 0 | 0 | 3 | 1 | 110 |
-| 90d | 2026-08-16 | 0 | 0 | 0 | 3 | 1 | 111 |
-| last180d | 2026-05-18 | 0 | 0 | 0 | 11 | 1 | 117 |
-| 360d | 2025-11-19 | 0 | 0 | 0 | 23 | 1 | 144 |
-| last720d | 2024-11-24 | 0 | 0 | 0 | 67 | 3 | 199 |
+| 30d | 2026-10-16 | 0 | 0 | 0 | 2 | 1 | 55 |
+| last60d | 2026-09-16 | 0 | 0 | 0 | 4 | 1 | 110 |
+| 90d | 2026-08-17 | 0 | 0 | 0 | 4 | 1 | 111 |
+| last180d | 2026-05-19 | 0 | 0 | 0 | 12 | 1 | 117 |
+| 360d | 2025-11-20 | 0 | 0 | 0 | 24 | 1 | 144 |
+| last720d | 2024-11-25 | 0 | 0 | 0 | 68 | 3 | 199 |
 
 ## Distribution status
 
@@ -87,4 +87,4 @@ Install metadata for ceres-solver lives in the [x-cmd/install](https://github.co
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261114.yml` · 2026-11-14T07:59:01Z._
+_Snapshot: `data/card/261115.yml` · 2026-11-15T07:36:23Z._
