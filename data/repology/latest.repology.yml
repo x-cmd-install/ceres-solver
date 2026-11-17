@@ -1,16 +1,5 @@
-- repo: chimera
+- repo: kali_rolling
   subrepo: main
-  srcname: ceres
-  binname: ceres
-  visiblename: ceres
-  version: 2.2.0
-  origversion: 2.2.0-r1
-  status: newest
-  summary: Non-linear optimization library
-  licenses:
-    - BSD-3-Clause AND Apache-2.0 AND MIT
-- repo: devuan_unstable
-  subrepo: unstable/main
   srcname: ceres-solver
   binnames:
     - libceres-dev
@@ -19,6 +8,46 @@
   visiblename: ceres-solver
   version: 2.2.0
   origversion: 2.2.0+dfsg-6
+  status: newest
+  maintainers:
+    - debian-science-maintainers@lists.alioth.debian.org
+    - gladk@debian.org
+    - mzf@debian.org
+    - pgt@debian.org
+  categories:
+    - misc
+- repo: nix_stable_25_05
+  srcname: ceres-solver
+  visiblename: ceres-solver
+  version: 2.1.0
+  origversion: null
+  status: outdated
+  summary: C++ library for modeling and solving large, complicated optimization problems
+  maintainers:
+    - lgtorres42@gmail.com
+  licenses:
+    - BSD-3-Clause
+- repo: nix_stable_25_11
+  srcname: ceres-solver
+  visiblename: ceres-solver
+  version: 2.1.0
+  origversion: null
+  status: outdated
+  summary: C++ library for modeling and solving large, complicated optimization problems
+  maintainers:
+    - lgtorres42@gmail.com
+  licenses:
+    - BSD-3-Clause
+- repo: parrot
+  subrepo: parrot/main
+  srcname: ceres-solver
+  binnames:
+    - libceres-dev
+    - libceres4t64
+    - ceres-solver-doc
+  visiblename: ceres-solver
+  version: 2.2.0
+  origversion: 2.2.0+dfsg-4.1
   status: newest
   maintainers:
     - debian-science-maintainers@lists.alioth.debian.org
@@ -45,66 +74,6 @@
     - pgt@debian.org
   categories:
     - math
-- repo: epel_7
-  srcname: ceres-solver
-  visiblename: ceres-solver
-  version: 1.12.0
-  origversion: 1.12.0-5.el7
-  status: outdated
-  summary: A non-linear least squares minimizer
-  licenses:
-    - BSD
-  categories:
-    - Development/Libraries
-- repo: epel_8
-  srcname: ceres-solver
-  visiblename: ceres-solver
-  version: 1.14.0
-  origversion: 1.14.0-4.el8
-  status: outdated
-  summary: A non-linear least squares minimizer
-  licenses:
-    - BSD
-  categories:
-    - Unspecified
-- repo: solus
-  srcname: ceres-solver
-  binname: ceres-solver-devel
-  visiblename: ceres-solver-devel
-  version: 2.2.0
-  origversion: null
-  status: newest
-  summary: Development files for ceres-solver
-  maintainers:
-    - git@gzgz.dev
-  licenses:
-    - Apache-2.0
-    - BSD-3-Clause
-  categories:
-    - programming.devel
-- repo: spack
-  srcname: ceres-solver
-  visiblename: ceres-solver
-  version: 2.2.0
-  origversion: null
-  status: newest
-  maintainers:
-    - fallback-mnt-spack@repology
-  licenses:
-    - Apache-2.0
-- repo: alpine_edge
-  subrepo: community
-  srcname: ceres
-  binname: ceres
-  visiblename: ceres
-  version: 2.2.0
-  origversion: 2.2.0-r1
-  status: newest
-  summary: Large scale non-linear optimization library
-  maintainers:
-    - main@lmarz.org
-  licenses:
-    - BSD-3-Clause AND Apache-2.0
 - repo: alpine_3_24
   subrepo: community
   srcname: ceres
@@ -127,6 +96,19 @@
   origversion: 2.2.0-r0
   status: newest
   summary: Large scale non-linear optimization library (development files)
+  maintainers:
+    - main@lmarz.org
+  licenses:
+    - BSD-3-Clause AND Apache-2.0
+- repo: alpine_edge
+  subrepo: community
+  srcname: ceres
+  binname: ceres
+  visiblename: ceres
+  version: 2.2.0
+  origversion: 2.2.0-r1
+  status: newest
+  summary: Large scale non-linear optimization library
   maintainers:
     - main@lmarz.org
   licenses:
@@ -202,18 +184,6 @@
   licenses:
     - Apache-2.0
 - repo: aur
-  srcname: mingw-w64-ceres-solver
-  binname: mingw-w64-ceres-solver
-  visiblename: mingw-w64-ceres-solver
-  version: 2.2.0
-  origversion: 2.2.0-9
-  status: newest
-  summary: Solver for nonlinear least squares problems (mingw-w64)
-  maintainers:
-    - xantares@aur
-  licenses:
-    - LGPL
-- repo: aur
   srcname: ceres-solver-git
   binname: ceres-solver-git
   visiblename: ceres-solver-git
@@ -237,6 +207,18 @@
     - fallback-mnt-aur@repology
   licenses:
     - LGPL
+- repo: aur
+  srcname: mingw-w64-ceres-solver
+  binname: mingw-w64-ceres-solver
+  visiblename: mingw-w64-ceres-solver
+  version: 2.2.0
+  origversion: 2.2.0-9
+  status: newest
+  summary: Solver for nonlinear least squares problems (mingw-w64)
+  maintainers:
+    - xantares@aur
+  licenses:
+    - LGPL
 - repo: artix
   subrepo: galaxy
   srcname: ceres-solver
@@ -248,6 +230,17 @@
   summary: Solver for nonlinear least squares problems
   licenses:
     - Apache-2.0
+- repo: chimera
+  subrepo: main
+  srcname: ceres
+  binname: ceres
+  visiblename: ceres
+  version: 2.2.0
+  origversion: 2.2.0-r1
+  status: newest
+  summary: Non-linear optimization library
+  licenses:
+    - BSD-3-Clause AND Apache-2.0 AND MIT
 - repo: chimera
   subrepo: main
   srcname: ceres
@@ -344,6 +337,13 @@
     - pgt@debian.org
   categories:
     - misc
+- repo: homebrew
+  srcname: ceres-solver
+  visiblename: ceres-solver
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: C++ library for large-scale optimization
 - repo: debian_14
   subrepo: forky/main
   srcname: ceres-solver
@@ -411,6 +411,46 @@
     - gladk@debian.org
   categories:
     - misc
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: ceres-solver
+  binnames:
+    - libceres-dev
+    - libceres4t64
+    - ceres-solver-doc
+  visiblename: ceres-solver
+  version: 2.2.0
+  origversion: 2.2.0+dfsg-6
+  status: newest
+  maintainers:
+    - debian-science-maintainers@lists.alioth.debian.org
+    - gladk@debian.org
+    - mzf@debian.org
+    - pgt@debian.org
+  categories:
+    - misc
+- repo: epel_7
+  srcname: ceres-solver
+  visiblename: ceres-solver
+  version: 1.12.0
+  origversion: 1.12.0-5.el7
+  status: outdated
+  summary: A non-linear least squares minimizer
+  licenses:
+    - BSD
+  categories:
+    - Development/Libraries
+- repo: epel_8
+  srcname: ceres-solver
+  visiblename: ceres-solver
+  version: 1.14.0
+  origversion: 1.14.0-4.el8
+  status: outdated
+  summary: A non-linear least squares minimizer
+  licenses:
+    - BSD
+  categories:
+    - Unspecified
 - repo: epel_9
   srcname: ceres-solver
   binnames:
@@ -504,21 +544,6 @@
   categories:
     - Unspecified
 - repo: fedora_43
-  subrepo: release
-  srcname: ceres-solver
-  binnames:
-    - ceres-solver
-    - ceres-solver-devel
-  visiblename: ceres-solver
-  version: 2.2.0
-  origversion: 2.2.0-7.fc43
-  status: newest
-  summary: A non-linear least squares minimizer
-  licenses:
-    - BSD-3-Clause AND Apache-2.0
-  categories:
-    - Unspecified
-- repo: fedora_43
   subrepo: updates
   srcname: ceres-solver
   binnames:
@@ -527,6 +552,21 @@
   visiblename: ceres-solver
   version: 2.2.0
   origversion: 2.2.0-8.fc43
+  status: newest
+  summary: A non-linear least squares minimizer
+  licenses:
+    - BSD-3-Clause AND Apache-2.0
+  categories:
+    - Unspecified
+- repo: fedora_43
+  subrepo: release
+  srcname: ceres-solver
+  binnames:
+    - ceres-solver
+    - ceres-solver-devel
+  visiblename: ceres-solver
+  version: 2.2.0
+  origversion: 2.2.0-7.fc43
   status: newest
   summary: A non-linear least squares minimizer
   licenses:
@@ -542,6 +582,21 @@
   visiblename: ceres-solver
   version: 2.2.0
   origversion: 2.2.0-11.fc44
+  status: newest
+  summary: A non-linear least squares minimizer
+  licenses:
+    - BSD-3-Clause AND Apache-2.0
+  categories:
+    - Unspecified
+- repo: fedora_45
+  subrepo: release
+  srcname: ceres-solver
+  binnames:
+    - ceres-solver
+    - ceres-solver-devel
+  visiblename: ceres-solver
+  version: 2.2.0
+  origversion: 2.2.0-13.fc45
   status: newest
   summary: A non-linear least squares minimizer
   licenses:
@@ -619,31 +674,6 @@
   origversion: null
   status: newest
   summary: C++ library for large-scale optimization
-- repo: homebrew
-  srcname: ceres-solver
-  visiblename: ceres-solver
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: C++ library for large-scale optimization
-- repo: kali_rolling
-  subrepo: main
-  srcname: ceres-solver
-  binnames:
-    - libceres-dev
-    - libceres4t64
-    - ceres-solver-doc
-  visiblename: ceres-solver
-  version: 2.2.0
-  origversion: 2.2.0+dfsg-6
-  status: newest
-  maintainers:
-    - debian-science-maintainers@lists.alioth.debian.org
-    - gladk@debian.org
-    - mzf@debian.org
-    - pgt@debian.org
-  categories:
-    - misc
 - repo: liguros_stable
   srcname: sci-libs/ceres-solver
   visiblename: sci-libs/ceres-solver
@@ -783,28 +813,6 @@
   licenses:
     - BSD-3-Clause
 - repo: nix_stable_24_11
-  srcname: ceres-solver
-  visiblename: ceres-solver
-  version: 2.1.0
-  origversion: null
-  status: outdated
-  summary: C++ library for modeling and solving large, complicated optimization problems
-  maintainers:
-    - lgtorres42@gmail.com
-  licenses:
-    - BSD-3-Clause
-- repo: nix_stable_25_05
-  srcname: ceres-solver
-  visiblename: ceres-solver
-  version: 2.1.0
-  origversion: null
-  status: outdated
-  summary: C++ library for modeling and solving large, complicated optimization problems
-  maintainers:
-    - lgtorres42@gmail.com
-  licenses:
-    - BSD-3-Clause
-- repo: nix_stable_25_11
   srcname: ceres-solver
   visiblename: ceres-solver
   version: 2.1.0
@@ -996,24 +1004,6 @@
     - debian-science-maintainers@lists.alioth.debian.org
     - debalance@debian.org
     - gladk@debian.org
-  categories:
-    - misc
-- repo: parrot
-  subrepo: parrot/main
-  srcname: ceres-solver
-  binnames:
-    - libceres-dev
-    - libceres4t64
-    - ceres-solver-doc
-  visiblename: ceres-solver
-  version: 2.2.0
-  origversion: 2.2.0+dfsg-4.1
-  status: newest
-  maintainers:
-    - debian-science-maintainers@lists.alioth.debian.org
-    - gladk@debian.org
-    - mzf@debian.org
-    - pgt@debian.org
   categories:
     - misc
 - repo: pisi_main
@@ -1210,6 +1200,31 @@
     - BSD-3-Clause
   categories:
     - debug
+- repo: solus
+  srcname: ceres-solver
+  binname: ceres-solver-devel
+  visiblename: ceres-solver-devel
+  version: 2.2.0
+  origversion: null
+  status: newest
+  summary: Development files for ceres-solver
+  maintainers:
+    - git@gzgz.dev
+  licenses:
+    - Apache-2.0
+    - BSD-3-Clause
+  categories:
+    - programming.devel
+- repo: spack
+  srcname: ceres-solver
+  visiblename: ceres-solver
+  version: 2.2.0
+  origversion: null
+  status: newest
+  maintainers:
+    - fallback-mnt-spack@repology
+  licenses:
+    - Apache-2.0
 - repo: t2
   srcname: ceres-solver
   visiblename: ceres-solver
