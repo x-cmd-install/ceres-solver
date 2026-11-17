@@ -42,7 +42,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 4,609 · **Forks**: 1,144 · **Open issues**: 1,106 · **Contributors**: 108
+- **Stars**: 4,609 · **Forks**: 1,145 · **Open issues**: 1,106 · **Contributors**: 108
 
 ## Totals (cumulative)
 
@@ -52,16 +52,16 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-17 | 0 | 0 | 0 | 2 | 1 | 40 |
-| last60d | 2026-09-17 | 0 | 0 | 0 | 4 | 1 | 110 |
-| 90d | 2026-08-18 | 0 | 0 | 0 | 4 | 1 | 110 |
-| last180d | 2026-05-20 | 0 | 0 | 0 | 12 | 1 | 117 |
-| 360d | 2025-11-21 | 0 | 0 | 0 | 24 | 1 | 144 |
-| last720d | 2024-11-26 | 0 | 0 | 0 | 68 | 3 | 199 |
+| 30d | 2026-10-18 | 0 | 0 | 0 | 2 | 1 | 40 |
+| last60d | 2026-09-18 | 0 | 0 | 0 | 4 | 1 | 110 |
+| 90d | 2026-08-19 | 0 | 0 | 0 | 4 | 1 | 110 |
+| last180d | 2026-05-21 | 0 | 0 | 0 | 12 | 1 | 117 |
+| 360d | 2025-11-22 | 0 | 0 | 0 | 24 | 1 | 144 |
+| last720d | 2024-11-27 | 0 | 0 | 0 | 68 | 3 | 199 |
 
 ## Distribution status
 
-Reported by **111** distros on [repology.org](https://repology.org/project/ceres-solver). **76** are ✅ on the latest upstream release, **29** are ⚠️ on an older version.
+Reported by **112** distros on [repology.org](https://repology.org/project/ceres-solver). **77** are ✅ on the latest upstream release, **29** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -71,7 +71,7 @@ Reported by **111** distros on [repology.org](https://repology.org/project/ceres
 | Ubuntu 26.04 LTS | `2.2.0` | ✅ latest |
 | Ubuntu 24.04 LTS | `2.2.0` | ✅ latest |
 | Arch | `2.2.0` | ✅ latest |
-| Homebrew | `2.2.0` | ✅ latest |
+| Homebrew | `HEAD` | 🔄 rolling |
 | Fedora rawhide | `2.2.0` | ✅ latest |
 | Nix unstable | `2.2.0` | ✅ latest |
 | Void | `2.2.0` | ✅ latest |
@@ -87,4 +87,4 @@ Install metadata for ceres-solver lives in the [x-cmd/install](https://github.co
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261116.yml` · 2026-11-16T08:03:23Z._
+_Snapshot: `data/card/261117.yml` · 2026-11-17T08:33:39Z._
