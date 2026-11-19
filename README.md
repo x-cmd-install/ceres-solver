@@ -14,13 +14,13 @@ x install ceres-solver
 
 ## Code insight
 
-Total: **90,560** lines of code across **643** files in the top 5 languages.
+Total: **90,538** lines of code across **643** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
 | Cpp | 55,908 | 19,352 | 10,406 | 395 |
 | CHeader | 16,511 | 16,980 | 4,444 | 198 |
-| ReStructuredText | 10,109 | 0 | 3,228 | 25 |
+| ReStructuredText | 10,087 | 0 | 3,225 | 25 |
 | Json | 4,432 | 0 | 0 | 2 |
 | CMake | 2,348 | 1,261 | 398 | 23 |
 
@@ -42,22 +42,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 4,609 · **Forks**: 1,145 · **Open issues**: 1,106 · **Contributors**: 108
+- **Stars**: 4,611 · **Forks**: 1,146 · **Open issues**: 1,106 · **Contributors**: 108
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 0 · **Closed issues**: 1064 · **Open issues**: 42 · **Commits**: 2396
+- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 0 · **Closed issues**: 1064 · **Open issues**: 42 · **Commits**: 2398
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-18 | 0 | 0 | 0 | 2 | 1 | 40 |
-| last60d | 2026-09-18 | 0 | 0 | 0 | 4 | 1 | 110 |
-| 90d | 2026-08-19 | 0 | 0 | 0 | 4 | 1 | 110 |
-| last180d | 2026-05-21 | 0 | 0 | 0 | 12 | 1 | 117 |
-| 360d | 2025-11-22 | 0 | 0 | 0 | 24 | 1 | 144 |
-| last720d | 2024-11-27 | 0 | 0 | 0 | 68 | 3 | 199 |
+| 30d | 2026-10-20 | 0 | 0 | 0 | 2 | 1 | 42 |
+| last60d | 2026-09-20 | 0 | 0 | 0 | 4 | 1 | 112 |
+| 90d | 2026-08-21 | 0 | 0 | 0 | 4 | 1 | 112 |
+| last180d | 2026-05-23 | 0 | 0 | 0 | 12 | 1 | 119 |
+| 360d | 2025-11-24 | 0 | 0 | 0 | 24 | 1 | 146 |
+| last720d | 2024-11-29 | 0 | 0 | 0 | 67 | 3 | 201 |
 
 ## Distribution status
 
@@ -71,7 +71,7 @@ Reported by **112** distros on [repology.org](https://repology.org/project/ceres
 | Ubuntu 26.04 LTS | `2.2.0` | ✅ latest |
 | Ubuntu 24.04 LTS | `2.2.0` | ✅ latest |
 | Arch | `2.2.0` | ✅ latest |
-| Homebrew | `HEAD` | 🔄 rolling |
+| Homebrew | `2.2.0` | ✅ latest |
 | Fedora rawhide | `2.2.0` | ✅ latest |
 | Nix unstable | `2.2.0` | ✅ latest |
 | Void | `2.2.0` | ✅ latest |
@@ -87,4 +87,4 @@ Install metadata for ceres-solver lives in the [x-cmd/install](https://github.co
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261117.yml` · 2026-11-17T08:33:39Z._
+_Snapshot: `data/card/261119.yml` · 2026-11-19T08:50:18Z._
