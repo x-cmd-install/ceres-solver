@@ -1,4 +1,30 @@
-- repo: kali_rolling
+- repo: gnuguix
+  srcname: ceres-solver
+  binname: ceres-solver
+  visiblename: ceres-solver
+  version: 2.0.0
+  origversion: null
+  status: outdated
+  summary: C++ library for solving large optimization problems
+- repo: raspbian_stable
+  subrepo: main
+  srcname: ceres-solver
+  binnames:
+    - libceres-dev
+    - libceres4t64
+    - ceres-solver-doc
+  visiblename: ceres-solver
+  version: 2.2.0
+  origversion: 2.2.0+dfsg-4.1
+  status: newest
+  maintainers:
+    - debian-science-maintainers@lists.alioth.debian.org
+    - gladk@debian.org
+    - mzf@debian.org
+    - pgt@debian.org
+  categories:
+    - misc
+- repo: raspbian_testing
   subrepo: main
   srcname: ceres-solver
   binnames:
@@ -16,62 +42,16 @@
     - pgt@debian.org
   categories:
     - misc
-- repo: nix_stable_25_05
-  srcname: ceres-solver
-  visiblename: ceres-solver
-  version: 2.1.0
-  origversion: null
-  status: outdated
-  summary: C++ library for modeling and solving large, complicated optimization problems
-  maintainers:
-    - lgtorres42@gmail.com
-  licenses:
-    - BSD-3-Clause
-- repo: nix_stable_25_11
-  srcname: ceres-solver
-  visiblename: ceres-solver
-  version: 2.1.0
-  origversion: null
-  status: outdated
-  summary: C++ library for modeling and solving large, complicated optimization problems
-  maintainers:
-    - lgtorres42@gmail.com
-  licenses:
-    - BSD-3-Clause
-- repo: parrot
-  subrepo: parrot/main
-  srcname: ceres-solver
-  binnames:
-    - libceres-dev
-    - libceres4t64
-    - ceres-solver-doc
-  visiblename: ceres-solver
+- repo: freebsd
+  srcname: math/ceres-solver
+  binname: ceres-solver
+  visiblename: math/ceres-solver
   version: 2.2.0
-  origversion: 2.2.0+dfsg-4.1
+  origversion: 2.2.0_15
   status: newest
+  summary: Nonlinear least squares minimizer
   maintainers:
-    - debian-science-maintainers@lists.alioth.debian.org
-    - gladk@debian.org
-    - mzf@debian.org
-    - pgt@debian.org
-  categories:
-    - misc
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: ceres-solver
-  binnames:
-    - libceres-dev
-    - libceres4t64
-    - ceres-solver-doc
-  visiblename: ceres-solver
-  version: 2.2.0
-  origversion: 2.2.0+dfsg-4.1
-  status: newest
-  maintainers:
-    - debian-science-maintainers@lists.alioth.debian.org
-    - gladk@debian.org
-    - mzf@debian.org
-    - pgt@debian.org
+    - yuri@freebsd.org
   categories:
     - math
 - repo: alpine_3_24
@@ -184,6 +164,18 @@
   licenses:
     - Apache-2.0
 - repo: aur
+  srcname: mingw-w64-ceres-solver
+  binname: mingw-w64-ceres-solver
+  visiblename: mingw-w64-ceres-solver
+  version: 2.2.0
+  origversion: 2.2.0-9
+  status: newest
+  summary: Solver for nonlinear least squares problems (mingw-w64)
+  maintainers:
+    - xantares@aur
+  licenses:
+    - LGPL
+- repo: aur
   srcname: ceres-solver-git
   binname: ceres-solver-git
   visiblename: ceres-solver-git
@@ -205,18 +197,6 @@
   summary: Solver for nonlinear least squares problems. Legacy version needed for google cartographer
   maintainers:
     - fallback-mnt-aur@repology
-  licenses:
-    - LGPL
-- repo: aur
-  srcname: mingw-w64-ceres-solver
-  binname: mingw-w64-ceres-solver
-  visiblename: mingw-w64-ceres-solver
-  version: 2.2.0
-  origversion: 2.2.0-9
-  status: newest
-  summary: Solver for nonlinear least squares problems (mingw-w64)
-  maintainers:
-    - xantares@aur
   licenses:
     - LGPL
 - repo: artix
@@ -319,6 +299,19 @@
     - pgt@debian.org
   categories:
     - misc
+- repo: gentoo
+  srcname: sci-libs/ceres-solver
+  visiblename: sci-libs/ceres-solver
+  version: 2.2.0
+  origversion: 2.2.0-r2
+  status: newest
+  summary: Nonlinear least-squares minimizer
+  maintainers:
+    - sci@gentoo.org
+  licenses:
+    - sparse? ( BSD ) !sparse? ( LGPL-2.1 )
+  categories:
+    - sci-libs
 - repo: debian_13
   subrepo: trixie/main
   srcname: ceres-solver
@@ -337,13 +330,6 @@
     - pgt@debian.org
   categories:
     - misc
-- repo: homebrew
-  srcname: ceres-solver
-  visiblename: ceres-solver
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: C++ library for large-scale optimization
 - repo: debian_14
   subrepo: forky/main
   srcname: ceres-solver
@@ -618,31 +604,6 @@
     - BSD-3-Clause AND Apache-2.0
   categories:
     - Unspecified
-- repo: freebsd
-  srcname: math/ceres-solver
-  binname: ceres-solver
-  visiblename: math/ceres-solver
-  version: 2.2.0
-  origversion: 2.2.0_15
-  status: newest
-  summary: Nonlinear least squares minimizer
-  maintainers:
-    - yuri@freebsd.org
-  categories:
-    - math
-- repo: gentoo
-  srcname: sci-libs/ceres-solver
-  visiblename: sci-libs/ceres-solver
-  version: 2.2.0
-  origversion: 2.2.0-r2
-  status: newest
-  summary: Nonlinear least-squares minimizer
-  maintainers:
-    - sci@gentoo.org
-  licenses:
-    - sparse? ( BSD ) !sparse? ( LGPL-2.1 )
-  categories:
-    - sci-libs
 - repo: gnuguix
   srcname: ceres-solver-benchmarks
   binname: ceres-solver-benchmarks
@@ -651,14 +612,6 @@
   origversion: null
   status: outdated
   summary: Benchmarks of the Ceres optimization problem solver
-- repo: gnuguix
-  srcname: ceres-solver
-  binname: ceres-solver
-  visiblename: ceres-solver
-  version: 2.0.0
-  origversion: null
-  status: outdated
-  summary: C++ library for solving large optimization problems
 - repo: haikuports_master
   srcname: sci-libs/ceres_solver
   visiblename: sci-libs/ceres_solver
@@ -674,6 +627,31 @@
   origversion: null
   status: newest
   summary: C++ library for large-scale optimization
+- repo: homebrew
+  srcname: ceres-solver
+  visiblename: ceres-solver
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: C++ library for large-scale optimization
+- repo: kali_rolling
+  subrepo: main
+  srcname: ceres-solver
+  binnames:
+    - libceres-dev
+    - libceres4t64
+    - ceres-solver-doc
+  visiblename: ceres-solver
+  version: 2.2.0
+  origversion: 2.2.0+dfsg-6
+  status: newest
+  maintainers:
+    - debian-science-maintainers@lists.alioth.debian.org
+    - gladk@debian.org
+    - mzf@debian.org
+    - pgt@debian.org
+  categories:
+    - misc
 - repo: liguros_stable
   srcname: sci-libs/ceres-solver
   visiblename: sci-libs/ceres-solver
@@ -813,6 +791,28 @@
   licenses:
     - BSD-3-Clause
 - repo: nix_stable_24_11
+  srcname: ceres-solver
+  visiblename: ceres-solver
+  version: 2.1.0
+  origversion: null
+  status: outdated
+  summary: C++ library for modeling and solving large, complicated optimization problems
+  maintainers:
+    - lgtorres42@gmail.com
+  licenses:
+    - BSD-3-Clause
+- repo: nix_stable_25_05
+  srcname: ceres-solver
+  visiblename: ceres-solver
+  version: 2.1.0
+  origversion: null
+  status: outdated
+  summary: C++ library for modeling and solving large, complicated optimization problems
+  maintainers:
+    - lgtorres42@gmail.com
+  licenses:
+    - BSD-3-Clause
+- repo: nix_stable_25_11
   srcname: ceres-solver
   visiblename: ceres-solver
   version: 2.1.0
@@ -1006,6 +1006,42 @@
     - gladk@debian.org
   categories:
     - misc
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: ceres-solver
+  binnames:
+    - libceres-dev
+    - libceres4t64
+    - ceres-solver-doc
+  visiblename: ceres-solver
+  version: 2.2.0
+  origversion: 2.2.0+dfsg-4.1
+  status: newest
+  maintainers:
+    - debian-science-maintainers@lists.alioth.debian.org
+    - gladk@debian.org
+    - mzf@debian.org
+    - pgt@debian.org
+  categories:
+    - math
+- repo: parrot
+  subrepo: parrot/main
+  srcname: ceres-solver
+  binnames:
+    - libceres-dev
+    - libceres4t64
+    - ceres-solver-doc
+  visiblename: ceres-solver
+  version: 2.2.0
+  origversion: 2.2.0+dfsg-4.1
+  status: newest
+  maintainers:
+    - debian-science-maintainers@lists.alioth.debian.org
+    - gladk@debian.org
+    - mzf@debian.org
+    - pgt@debian.org
+  categories:
+    - misc
 - repo: pisi_main
   subrepo: main
   srcname: programming/library/ceres-solver
@@ -1104,42 +1140,6 @@
     - debian-science-maintainers@lists.alioth.debian.org
     - francois@mzf.fr
     - gladk@debian.org
-    - pgt@debian.org
-  categories:
-    - misc
-- repo: raspbian_stable
-  subrepo: main
-  srcname: ceres-solver
-  binnames:
-    - libceres-dev
-    - libceres4t64
-    - ceres-solver-doc
-  visiblename: ceres-solver
-  version: 2.2.0
-  origversion: 2.2.0+dfsg-4.1
-  status: newest
-  maintainers:
-    - debian-science-maintainers@lists.alioth.debian.org
-    - gladk@debian.org
-    - mzf@debian.org
-    - pgt@debian.org
-  categories:
-    - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: ceres-solver
-  binnames:
-    - libceres-dev
-    - libceres4t64
-    - ceres-solver-doc
-  visiblename: ceres-solver
-  version: 2.2.0
-  origversion: 2.2.0+dfsg-6
-  status: newest
-  maintainers:
-    - debian-science-maintainers@lists.alioth.debian.org
-    - gladk@debian.org
-    - mzf@debian.org
     - pgt@debian.org
   categories:
     - misc
@@ -1249,22 +1249,6 @@
   maintainers:
     - termux@github
 - repo: ubuntu_16_04
-  subrepo: xenial-updates/universe
-  srcname: ceres-solver
-  binnames:
-    - libceres-dev
-    - libceres1
-    - ceres-solver-doc
-  visiblename: ceres-solver
-  version: 1.11.0
-  origversion: 1.11.0~dfsg0-2ubuntu0.1
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - debalance@debian.org
-  categories:
-    - universe/misc
-- repo: ubuntu_16_04
   subrepo: xenial/universe
   srcname: ceres-solver
   binnames:
@@ -1277,6 +1261,22 @@
   status: outdated
   maintainers:
     - debian-science-maintainers@lists.alioth.debian.org
+    - debalance@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_16_04
+  subrepo: xenial-updates/universe
+  srcname: ceres-solver
+  binnames:
+    - libceres-dev
+    - libceres1
+    - ceres-solver-doc
+  visiblename: ceres-solver
+  version: 1.11.0
+  origversion: 1.11.0~dfsg0-2ubuntu0.1
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
     - debalance@debian.org
   categories:
     - universe/misc
