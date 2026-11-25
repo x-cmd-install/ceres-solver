@@ -32,7 +32,7 @@ Lowest-scoring checks:
 
 - **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
 - **Packaging** (-1/10) — packaging workflow not detected
-- **SAST** (0/10) — no SAST tool detected
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## Source
 
@@ -42,7 +42,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 4,611 · **Forks**: 1,146 · **Open issues**: 1,106 · **Contributors**: 108
+- **Stars**: 4,613 · **Forks**: 1,146 · **Open issues**: 1,106 · **Contributors**: 108
 
 ## Totals (cumulative)
 
@@ -52,31 +52,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 0 | 0 | 0 | 1 | 1 | 42 |
-| last60d | 2026-09-25 | 0 | 0 | 0 | 4 | 1 | 110 |
-| 90d | 2026-08-26 | 0 | 0 | 0 | 4 | 1 | 113 |
-| last180d | 2026-05-28 | 0 | 0 | 0 | 12 | 1 | 120 |
-| 360d | 2025-11-29 | 0 | 0 | 0 | 24 | 1 | 147 |
-| last720d | 2024-12-04 | 0 | 0 | 0 | 65 | 3 | 202 |
-
-## Distribution status
-
-Reported by **111** distros on [repology.org](https://repology.org/project/ceres-solver). **78** are ✅ on the latest upstream release, **27** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `2.2.0` | ✅ latest |
-| Debian 14 | `2.2.0` | ✅ latest |
-| Debian 13 | `2.2.0` | ✅ latest |
-| Ubuntu 26.04 LTS | `2.2.0` | ✅ latest |
-| Ubuntu 24.04 LTS | `2.2.0` | ✅ latest |
-| Arch | `2.2.0` | ✅ latest |
-| Homebrew | `2.2.0` | ✅ latest |
-| Fedora rawhide | `2.2.0` | ✅ latest |
-| Nix unstable | `2.2.0` | ✅ latest |
-| Void | `2.2.0` | ✅ latest |
-| Alpine edge | `2.2.0` | ✅ latest |
-| openSUSE Tumbleweed | `2.2.0` | ✅ latest |
+| 30d | 2026-10-26 | 0 | 0 | 0 | 1 | 1 | 42 |
+| last60d | 2026-09-26 | 0 | 0 | 0 | 4 | 1 | 110 |
+| 90d | 2026-08-27 | 0 | 0 | 0 | 4 | 1 | 113 |
+| last180d | 2026-05-29 | 0 | 0 | 0 | 12 | 1 | 120 |
+| 360d | 2025-11-30 | 0 | 0 | 0 | 24 | 1 | 147 |
+| last720d | 2024-12-05 | 0 | 0 | 0 | 64 | 3 | 202 |
 
 ## Improve this data
 
@@ -87,4 +68,4 @@ Install metadata for ceres-solver lives in the [x-cmd/install](https://github.co
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261124.yml` · 2026-11-24T10:30:00Z._
+_Snapshot: `data/card/261125.yml` · 2026-11-25T09:32:57Z._
