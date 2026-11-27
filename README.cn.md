@@ -42,7 +42,7 @@ x install ceres-solver
 
 ## 流行度
 
-- **Star**: 4,615 · **Fork**: 1,146 · **开放 issue**: 1,106 · **贡献者**: 108
+- **Star**: 4,616 · **Fork**: 1,146 · **开放 issue**: 1,106 · **贡献者**: 108
 
 ## 累计统计
 
@@ -52,12 +52,31 @@ x install ceres-solver
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-27 | 0 | 0 | 0 | 1 | 1 | 42 |
-| last60d | 2026-09-27 | 0 | 0 | 0 | 4 | 1 | 110 |
-| 90d | 2026-08-28 | 0 | 0 | 0 | 4 | 1 | 113 |
-| last180d | 2026-05-30 | 0 | 0 | 0 | 12 | 1 | 120 |
-| 360d | 2025-12-01 | 0 | 0 | 0 | 24 | 1 | 147 |
-| last720d | 2024-12-06 | 0 | 0 | 0 | 64 | 3 | 202 |
+| 30d | 2026-10-28 | 0 | 0 | 0 | 1 | 1 | 42 |
+| last60d | 2026-09-28 | 0 | 0 | 0 | 4 | 1 | 110 |
+| 90d | 2026-08-29 | 0 | 0 | 0 | 4 | 1 | 113 |
+| last180d | 2026-05-31 | 0 | 0 | 0 | 12 | 1 | 120 |
+| 360d | 2025-12-02 | 0 | 0 | 0 | 24 | 1 | 147 |
+| last720d | 2024-12-07 | 0 | 0 | 0 | 64 | 3 | 202 |
+
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/ceres-solver) 上共有 **110** 个发行版报告此项目。**78** 个 ✅ 已是最新上游版本，**26** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `2.2.0` | ✅ latest |
+| Debian 14 | `2.2.0` | ✅ latest |
+| Debian 13 | `2.2.0` | ✅ latest |
+| Ubuntu 26.04 LTS | `2.2.0` | ✅ latest |
+| Ubuntu 24.04 LTS | `2.2.0` | ✅ latest |
+| Arch | `2.2.0` | ✅ latest |
+| Homebrew | `2.2.0` | ✅ latest |
+| Fedora rawhide | `2.2.0` | ✅ latest |
+| Nix unstable | `2.2.0` | ✅ latest |
+| Void | `2.2.0` | ✅ latest |
+| Alpine edge | `2.2.0` | ✅ latest |
+| openSUSE Tumbleweed | `2.2.0` | ✅ latest |
 
 ## 改进这些数据
 
@@ -68,4 +87,4 @@ ceres-solver 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/inst
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261126.yml` · 2026-11-26T10:04:17Z._
+_数据快照: `data/card/261127.yml` · 2026-11-27T09:48:27Z._
