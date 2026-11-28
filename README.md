@@ -14,15 +14,15 @@ x install ceres-solver
 
 ## Code insight
 
-Total: **90,558** lines of code across **643** files in the top 5 languages.
+Total: **91,893** lines of code across **687** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Cpp | 55,908 | 19,352 | 10,406 | 395 |
-| CHeader | 16,511 | 16,980 | 4,444 | 198 |
+| Cpp | 57,164 | 20,936 | 10,706 | 439 |
+| CHeader | 16,516 | 16,980 | 4,444 | 198 |
 | ReStructuredText | 10,087 | 0 | 3,225 | 25 |
 | Json | 4,432 | 0 | 0 | 2 |
-| CMake | 2,368 | 1,267 | 399 | 23 |
+| CMake | 2,412 | 1,267 | 399 | 23 |
 
 ## OpenSSF Scorecard
 
@@ -37,46 +37,32 @@ Lowest-scoring checks:
 ## Source
 
 - **Upstream**: <https://github.com/ceres-solver/ceres-solver>
-- **Homepage**: <http://ceres-solver.org/>
+- **Homepage**: <https://ceres-solver.github.io/ceres-solver/>
 - **License**: NOASSERTION
+
+## Release
+
+- **Latest**: `2.2.0` (2026-11-27)
+- **Last commit**: 2026-11-28
 
 ## Popularity
 
-- **Stars**: 4,616 · **Forks**: 1,146 · **Open issues**: 1,106 · **Contributors**: 108
+- **Stars**: 4,615 · **Forks**: 1,146 · **Open issues**: 1,106 · **Contributors**: 108
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 0 · **Closed issues**: 1064 · **Open issues**: 42 · **Commits**: 2399
+- **Releases**: 1 · **Merged PRs**: 0 · **Open PRs**: 0 · **Closed issues**: 1064 · **Open issues**: 42 · **Commits**: 2401
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-28 | 0 | 0 | 0 | 1 | 1 | 42 |
-| last60d | 2026-09-28 | 0 | 0 | 0 | 4 | 1 | 110 |
-| 90d | 2026-08-29 | 0 | 0 | 0 | 4 | 1 | 113 |
-| last180d | 2026-05-31 | 0 | 0 | 0 | 12 | 1 | 120 |
-| 360d | 2025-12-02 | 0 | 0 | 0 | 24 | 1 | 147 |
-| last720d | 2024-12-07 | 0 | 0 | 0 | 64 | 3 | 202 |
-
-## Distribution status
-
-Reported by **110** distros on [repology.org](https://repology.org/project/ceres-solver). **78** are ✅ on the latest upstream release, **26** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `2.2.0` | ✅ latest |
-| Debian 14 | `2.2.0` | ✅ latest |
-| Debian 13 | `2.2.0` | ✅ latest |
-| Ubuntu 26.04 LTS | `2.2.0` | ✅ latest |
-| Ubuntu 24.04 LTS | `2.2.0` | ✅ latest |
-| Arch | `2.2.0` | ✅ latest |
-| Homebrew | `2.2.0` | ✅ latest |
-| Fedora rawhide | `2.2.0` | ✅ latest |
-| Nix unstable | `2.2.0` | ✅ latest |
-| Void | `2.2.0` | ✅ latest |
-| Alpine edge | `2.2.0` | ✅ latest |
-| openSUSE Tumbleweed | `2.2.0` | ✅ latest |
+| 30d | 2026-10-29 | 1 | 0 | 0 | 1 | 1 | 43 |
+| last60d | 2026-09-29 | 1 | 0 | 0 | 4 | 1 | 112 |
+| 90d | 2026-08-30 | 1 | 0 | 0 | 4 | 1 | 115 |
+| last180d | 2026-06-01 | 1 | 0 | 0 | 12 | 1 | 122 |
+| 360d | 2025-12-03 | 1 | 0 | 0 | 24 | 1 | 149 |
+| last720d | 2024-12-08 | 1 | 0 | 0 | 64 | 3 | 204 |
 
 ## Improve this data
 
@@ -87,4 +73,4 @@ Install metadata for ceres-solver lives in the [x-cmd/install](https://github.co
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261127.yml` · 2026-11-27T09:48:27Z._
+_Snapshot: `data/card/261128.yml` · 2026-11-28T09:12:09Z._
